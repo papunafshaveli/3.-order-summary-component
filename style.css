@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 
-body{
+body {
     background: #e0e8ff;
     background-image: url(pattern-background-desktop.svg);
     background-repeat: no-repeat;
@@ -9,20 +9,22 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
     
+
 }
 
-.card{
+.card {
     background-color: white;
     border-radius: 20px;
     width: 450px;
 }
 
-.hero{
-border-radius: 20px 20px 0px 0px;
+.hero {
+    border-radius: 20px 20px 0px 0px;
 }
 
-.order{
+.order {
     color: #1F2E55;
     font-family: 'Red Hat Display';
     font-weight: 900;
@@ -33,7 +35,7 @@ border-radius: 20px 20px 0px 0px;
 
 }
 
-.text{
+.text {
     color: #717FA6;
     font-family: 'Red Hat Display';
     font-weight: 500;
@@ -46,32 +48,33 @@ border-radius: 20px 20px 0px 0px;
     margin-left: 48px;
     margin-top: 17px;
 }
-.plan{
-width: 354px;
-height: 98px;
-background: #F7F9FF;
-border-radius: 11px;
-margin-left: 48px;
-margin-top: 20px;
-display: flex;
-align-items: center;
+
+.plan {
+    width: 354px;
+    height: 98px;
+    background: #F7F9FF;
+    border-radius: 11px;
+    margin-left: 48px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 
 }
 
-.music{
+.music {
     width: 48px;
     height: 48px;
     margin-left: 24px;
     margin-top: 5px;
 }
 
-.planmoney{
+.planmoney {
     display: flex;
     flex-direction: column;
 
 }
 
-.annual{
+.annual {
     color: #1F2E55;
     font-family: 'Red Hat Display';
     font-weight: 900;
@@ -80,10 +83,10 @@ align-items: center;
     font-style: normal;
     margin-left: 20px;
     margin-bottom: 5px;
-    
+
 }
 
-.money{
+.money {
     color: #717FA6;
     font-family: 'Red Hat Display';
     font-weight: 500;
@@ -93,7 +96,7 @@ align-items: center;
     margin-top: 6px;
 }
 
-.change{
+.change {
     color: #382AE1;
     font-family: 'Red Hat Display';
     font-size: 14px;
@@ -103,7 +106,7 @@ align-items: center;
     margin-left: 94px;
 }
 
-.proceed{
+.proceed {
     width: 354px;
     height: 50px;
     border-radius: 11px;
@@ -118,7 +121,8 @@ align-items: center;
     font-style: normal;
     border: none;
 }
-.cancel{
+
+.cancel {
     color: #717FA6;
     font-family: 'Red Hat Display';
     font-weight: 900;
@@ -128,8 +132,3 @@ align-items: center;
     margin-top: 32px;
     margin-bottom: 48px;
 }
-
-
-
-
-
